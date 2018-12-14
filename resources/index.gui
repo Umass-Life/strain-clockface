@@ -1,0 +1,74 @@
+<svg class="background">
+  <image id="body-image" href="myimage.jpg" load="sync" />
+  <text id="hrLast" />
+  <text id="clockLabel" />
+  <text id="stressIntervention" y="30" />
+  <text id="stressLast" />
+  <text id="peerSocket" y="25">maybe</text>
+  <text id="stressLabel" y="25">Select your stress level</text>
+  
+  <use id="stressBtn1" class="stressBtn" href="#push-button" y="30" fill="#2B150E">
+    <set href="#text" attributeName="text-buffer" to="Stressed out" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>  
+  <use id="stressBtn2" class="stressBtn" href="#push-button" y="$+0" fill="#AB6625">
+    <set href="#text" attributeName="text-buffer" to="A little stressed" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>  
+  <use id="stressBtn3" class="stressBtn" href="#push-button" y="$+0" fill="fb-yellow">
+    <set href="#text" attributeName="text-buffer" to="Neither" />
+    <set href="#text" attributeName="fill" to="fb-black" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>  
+  <use id="stressBtn4" class="stressBtn" href="#push-button" y="$+0" fill="#648F30">
+    <set href="#text" attributeName="text-buffer" to="Feeling good" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>  
+  <use id="stressBtn5" class="stressBtn" href="#push-button" y="$+0" fill="#382F72">
+    <set href="#text" attributeName="text-buffer" to="Feeling great" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+  
+<!--   <use width="348" height="250" id="mood" viewport-fill="yellow">
+    <text> Hello World </text>
+  </use> -->
+  
+  <svg id="mood">
+    <rect id="mood-rect" x="0" y="0" width="100%" height="100%" fill="black">
+        <use id="moodGood" href="#square-button-positive" y="5">
+          <set href="#text" attributeName="text-buffer" to="Good Mood =)" />
+        </use>
+        <use id="moodNeutral" href="#square-button-neutral" y="$">
+          <set href="#text" attributeName="text-buffer" to="Neutral" />
+        </use>
+        <use id="moodBad" href="#square-button-negative" y="$">
+          <set href="#text" attributeName="text-buffer" to="Bad Mood =(" />
+        </use>
+    </rect>
+  </svg>
+  
+    <svg id="pain">
+    <rect id="pain-rect" x="0" y="0" width="100%" height="100%" fill="black">
+        <use id="noPain" href="#square-button-positive" height="24%" y="0">
+          <set href="#text" attributeName="text-buffer" to="No Pain" />
+        </use>
+        <use id="mildPain" href="#square-button-neutral" height="24%" y="$">
+          <set href="#text" attributeName="text-buffer" to="Mild Pain" />
+        </use>
+        <use id="moderatePain" href="#square-button" height="24%" y="$" fill="coral">
+          <set href="#text" attributeName="text-buffer" to="Moderate Pain" />
+        </use>
+        <use id="severePain" href="#square-button-negative" height="24%" y="$">
+          <set href="#text" attributeName="text-buffer" to="Severe Pain" />
+        </use>
+    </rect>
+      
+  </svg>
+  
+  
+
+</svg>

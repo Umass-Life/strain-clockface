@@ -1,0 +1,69 @@
+.background {
+  viewport-fill: rgba(0,0,0,1);
+}
+
+#clockLabel {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: white;
+}
+
+#intervention {
+  x: 00%;
+  y: 50%+40;
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+}
+
+#stressLast {
+  x: 0%;
+  y: 100%-10;
+  font-size: 12;
+  font-family: System-Bold;
+  text-length: 32;
+  fill: rgba(255,255,255,1);
+}
+
+#peerSocket {
+  x: 0%;
+  y: 100%-20;
+  font-size: 12;
+  font-family: System-Bold;
+  text-length: 32;
+  fill: rgba(255,255,255,1);
+}
+
+#stressIntervention {
+  font-size: 24;
+  text-length: 32;
+  fill: rgba(255,255,255,1);
+}
+
+#stressLabel {
+  font-size: 35;
+  font-family: System-Bold;
+  fill: white;
+}
+
+#hrLast {
+  x: 100%-85;
+  y: 100%-10;
+  font-size: 35;
+  font-family: System-Bold;
+  text-length: 32;
+  fill: rgba(255,255,255,1);
+}
+
+.stressBtn {
+  width: 100%;
+  height: 44;
+  fill: fb-red;
+  font-family: System-Regular;
+  font-size: 30;
+}

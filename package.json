@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "ba695c37-0413-4d4a-9fb9-63611bce3dcf",
+    "appType": "clockface",
+    "appDisplayName": "StrainClock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_internet",
+      "access_location",
+      "run_background",
+      "access_user_profile",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "StrainClock"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}
